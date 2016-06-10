@@ -18,7 +18,7 @@ import Control.Arrow (first)
 import Control.Exception
 import Control.Lens hiding ((.=), cons)
 
-import Data.Aeson hiding (Success, Error)
+import Data.Aeson hiding (Success, Error, Series)
 import Data.Aeson.Types (modifyFailure, typeMismatch)
 import qualified Data.ByteString.Lazy as LBS (ByteString, empty)
 import qualified Data.DList as D
